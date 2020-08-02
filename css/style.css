@@ -238,9 +238,9 @@ span.span1 {
     font-weight: 600;
     top: 0;
     left: 0;
-    -webkit-animation: move 5s;
+    -webkit-animation: move 10s;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: 2s;
 }
 
 @keyframes move {
@@ -410,6 +410,13 @@ h4.aboutbtm-head {
     font-weight: 300;
     margin: 0.2em 0 0.5em;
     font-size: 2.8em;
+}
+h5.aboutbtm-head {
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin: 0.2em 0 0.5em;
+    font-size: 2.0em;
 }
 
 .ab1 h5 {
@@ -608,12 +615,11 @@ figcaption.port-gird-caption-agileits_w3layouts h3 {
     font-weight: 400;
     font-size: 1.8em;
     color: #fff;
-    text-transform: uppercase;
     padding: 30px 0px;
     margin-bottom: 0;
     background: #111;
     position: relative;
-    margin-top: 70px;
+    margin-top: 0px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
@@ -1640,6 +1646,7 @@ span.icon_github {
 /* skills */
 
 .skills {
+//
     background: url(../images/s1.jpg) no-repeat center;
     background-size: cover;
 }
@@ -1650,7 +1657,7 @@ span.icon_github {
 }
 
 .skills h4.sec-title {
-    color: #fff;
+    color: #eb5273;
 }
 
 .progress-title {
@@ -2598,7 +2605,7 @@ span.icon_github {
     }
     .banner-text {
         width: 100%;
-        margin: 2em 0;
+        margin: 5em 0;
     }
     span.span1 {
         font-size: 24px;
